@@ -570,9 +570,12 @@ img {
 
 .modal-button-close:active {
     background-color: var(--pressed-state);
-    fill: var(--white-color);
 }
 
 .button-close-icon {
     fill: currentColor;
+}
+
+.modal-button-close:active .button-close-icon {
+    fill: var(--white-color);
 }
